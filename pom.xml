@@ -13,7 +13,6 @@
 	<modules>
 		<module>spider-common</module>
 		<module>spider-operator</module>
-		<module>spider-blacklist</module>
 	</modules>
 
 	<properties>
@@ -138,12 +137,6 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
-		</profile>
-		<profile>
-			<id>sit</id>
-			<properties>
-				<env>sit</env>
-			</properties>
 		</profile>
 		<profile>
 			<id>pro</id>
